@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Big Ones</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/burger_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bite The Big One</h1>
+        </div>
+        <div class="row justify-content-center">
+
+            <div class="col-4-md">
+                <img src="assets/img/burger.jpg" alt=" biggest burger">
+            </div>
+            <div class="col-6-md">
+                <p>Chomp your way through some of the biggest burgers in the world. You can make your own burger
+                    or choose from our best in the world series. When you finish the burger it will be in the devoured
+                    section on the right. If you can't handle the meal it will stay on the left... mocking you.
+                    Get ready to loosen your belt and stuff your face with Bite The Big One!!
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-6 input-group mb-3">
+                <input type="text" class="form-control" id="newBurger" placeholder="What is on your burger?">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="makeBurger">Make it</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6" id="whole">
+
+            </div>
+            <div class="col-6" id="eaten">
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/javascript/index.js"></script>
+</body>
+
+</html>
