@@ -1,7 +1,7 @@
 const db = require("./models");
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 3307;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
