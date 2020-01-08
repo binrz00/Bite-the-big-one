@@ -6,9 +6,6 @@ const devourButton = document.getElementById("devour");
 makeButton.addEventListener("click",function(){
     console.log(newBurger.value);
 })
-// devourButton.addEventListener("click",function(){
-    
-// })
 axios.get("api/burgers").then(function(res){
     console.log(res)
 })

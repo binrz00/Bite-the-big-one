@@ -8,14 +8,17 @@ module.exports = function(app) {
   app.post("/api/burger", function(req, res) {
     console.log(req.body);
     db.burger.create({
-      burger_name: req.params.name
+      burger_name: req.body
     }).then(function(data) {
-      res.end();
+      res.json(data);
     });
 
   });
 app.put("/api/burger:id", function(req,res){
   console.log(req.params.id);
 db.burger.update({devoured: true },{where:{id: req.params.id}})
+.then(function(data){
+  res.json(data)
+})
 })
 };
