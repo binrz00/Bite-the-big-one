@@ -11,3 +11,12 @@ body{
 img{
     border-radius: 5px;
 }
+h2{
+    color: aqua;
+}
+#devour{
+    color: aqua;
+    background-color: transparent;
+    transform: scale(.8);
+    border-radius: 7px;
+}
