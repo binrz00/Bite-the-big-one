@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 // Routes
 require("./routes/api-routes")(app);
-app.get("/", function(req, res){
+app.get("/", function (req, res) {
   res.sendFile("index.html")
 })
 // Starts the server to begin listening
