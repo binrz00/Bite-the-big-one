@@ -14,9 +14,9 @@ img{
 h2{
     color: aqua;
 }
-#devour{
+.devour{
     color: aqua;
-    background-color: transparent;
+    background-color: gray;
     transform: scale(.8);
     border-radius: 7px;
 }
